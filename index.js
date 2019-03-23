@@ -30,14 +30,11 @@ function findTheCheese (foods) {
 for(let i = 0 ; i < foods.length ; i++){
   if(foods[i] == "cheddar" ){
     return "cheddar";
-    break;
   }else if(foods[i] == "gouda"){
     return "gouda";
-    break;
   }else if(foods[i] == "camembert"){
     return "camembert";
-    break;
   }
   }
-  return "no cheese!"
+  return "no cheese!";
 }
