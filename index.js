@@ -1,7 +1,7 @@
 function dwarfRollCall(dwarves) {
   var string = "";
   for(let i = 0 ; i < dwarves.length ; i ++){
-    string += `${[i+1]}. ${dwarves[i]} `;
+    string += `${i+1}. ${dwarves[i]} `;
   }
   return string;
 }
@@ -36,4 +36,15 @@ function longPlaneteerCalls(words) {
       }
     }
     return "no cheese!";
+  }
+
+
+  function wordswithB (words){
+    var wordsstartwithB = [] ;
+    for(let i =0 ; i < words.length ; i++){
+      if( words[i].charAt(0) === "b" || words[i].charAt(0) === "B" ){
+        wordsstartwithB.push(words[i]);
+      }
+    }
+    return wordsstartwithB;
   }
