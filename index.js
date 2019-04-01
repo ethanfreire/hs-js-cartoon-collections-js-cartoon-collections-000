@@ -1,7 +1,7 @@
 function dwarfRollCall(dwarves) {
   var string = "";
   for(let i = Math.floor(dwarves.length/2)  ; i < dwarves.length ; i ++){
-    
+
     string += `${i+1}. ${dwarves[i]} `;
   }
   return string;
