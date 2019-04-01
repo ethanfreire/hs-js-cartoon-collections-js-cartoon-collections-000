@@ -18,11 +18,10 @@ function longPlaneteerCalls(words) {
     return null;
   }
 for(let i = 0 ; i < words.length ; i++){
-  if (words.length > 4 ){
-    return true;
-  }else{
-    return false;
-  }
+if(words[i].length > 4){
+  return true ;
+}else {
+  return false;
 }
 }
 
