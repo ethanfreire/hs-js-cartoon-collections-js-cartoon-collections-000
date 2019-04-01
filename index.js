@@ -24,7 +24,7 @@ function longPlaneteerCalls(words) {
       return false;
     }
   }
-  
+
   function findTheCheese (foods) {
     for(let i = 0 ; i < foods.length ; i++){
       if(foods[i] == "cheddar" ){
